@@ -1,5 +1,7 @@
 # FactoryFlow
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![GitHub stars](https://img.shields.io/github/stars/YashZode/FactoryFlow?style=social)](https://github.com/YashZode/FactoryFlow/stargazers)
+
 FactoryFlow is a simulated batch-production line for Windows. It includes:
 
 - a .NET 8 **OPC UA PLC simulator**
@@ -28,6 +30,8 @@ The HMI connects to the simulated PLC over a secure OPC UA session. Operators si
 10. [Troubleshooting](#troubleshooting)
 11. [Security notes and limitations](#security-notes-and-limitations)
 12. [Further documentation](#further-documentation)
+13. [Support the project](#support-the-project)
+14. [License and copyright](#license-and-copyright)
 
 ---
 
@@ -384,3 +388,19 @@ dotnet run --project tests/FactoryFlow.OpcUaSmokeTest
 | [CLIENT-SUBSCRIPTIONS.md](CLIENT-SUBSCRIPTIONS.md) | OPC UA client subscriptions, reconnects and data quality |
 | [INTERVIEW-GUIDE.md](INTERVIEW-GUIDE.md) | Problem statement, architecture walkthrough and demo script |
 | [RESUME-READINESS.md](RESUME-READINESS.md) | Recorded verification results and their limits |
+
+---
+
+## Support the project
+
+FactoryFlow is free to use. Clone it, learn from it, adapt it for your own simulations or demos, and build on it.
+
+If you find it useful, please **⭐ star the repository** on [GitHub](https://github.com/YashZode/FactoryFlow). Stars help other people discover the project and keep development going. Issues and pull requests are welcome too.
+
+---
+
+## License and copyright
+
+Copyright © 2026 Yash Ananta Zode.
+
+FactoryFlow is released under the [MIT License](LICENSE). You may use, copy, modify and distribute it, including for commercial purposes, as long as you keep the copyright and license notice. The software is provided "as is", without warranty of any kind.
