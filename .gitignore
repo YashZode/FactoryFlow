@@ -1,0 +1,9 @@
+**/bin/
+**/obj/
+**/pki/
+.vs/
+*.log
+.verification/
+**/production-outbox/
+test-results/
+**/telemetry-outbox/

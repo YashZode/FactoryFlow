@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "FactoryFlow.HMI\\FactoryFlow.HMI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "FactoryFlow.PlcSimulator\\FactoryFlow.PlcSimulator.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

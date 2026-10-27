@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net48</TargetFramework>
+    <LangVersion>12.0</LangVersion><Nullable>enable</Nullable><ImplicitUsings>enable</ImplicitUsings>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects><GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../FactoryFlow.Data/FactoryFlow.Data.csproj" />
+    <ProjectReference Include="../../FactoryFlow.PlcClient/FactoryFlow.PlcClient.csproj" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/FactoryFlow.Data.IntegrationTests/FactoryFlow.Data.IntegrationTests.csproj" />
+    <Project Path="tests/FactoryFlow.PlcClient.IntegrationTests/FactoryFlow.PlcClient.IntegrationTests.csproj" />
+    <Project Path="tests/FactoryFlow.UnitTests/FactoryFlow.UnitTests.csproj" />
+  </Folder>
+  <Project Path="FactoryFlow.Collector/FactoryFlow.Collector.csproj" />
+  <Project Path="FactoryFlow.Core/FactoryFlow.Core.csproj" />
+  <Project Path="FactoryFlow.Data/FactoryFlow.Data.csproj" />
+  <Project Path="FactoryFlow.Diagnostics/FactoryFlow.Diagnostics.csproj" />
+  <Project Path="FactoryFlow.HMI/FactoryFlow.HMI.csproj" />
+  <Project Path="FactoryFlow.PlcClient/FactoryFlow.PlcClient.csproj" />
+  <Project Path="FactoryFlow.PlcSimulator/FactoryFlow.PlcSimulator.csproj" />
+  <Project Path="tests/FactoryFlow.OpcUaSmokeTest/FactoryFlow.OpcUaSmokeTest.csproj" />
+</Solution>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FactoryFlow.Core\FactoryFlow.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <EmbeddedResource Include="Sql/001_ProductionHistory.sql" />
+    <EmbeddedResource Include="Sql/002_OperatorFeatures.sql" />
+  </ItemGroup>
+</Project>
+
+
+

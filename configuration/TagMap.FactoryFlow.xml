@@ -1,0 +1,12 @@
+<PlcTagMap>
+ <Tag Alias="Line1" Identifier="s=Line1" />
+ <Tag Alias="Line1.Status" Identifier="s=Line1.Status" />
+ <Tag Alias="Line1.ActualWeight" Identifier="s=Line1.ActualWeight" />
+ <Tag Alias="Line1.StartRequest" Identifier="s=Line1.StartRequest" />
+ <Tag Alias="Line1.StopRequest" Identifier="s=Line1.StopRequest" />
+ <Tag Alias="Line1.EStopActive" Identifier="s=Line1.EStopActive" />
+ <Tag Alias="Line1.GuardClosed" Identifier="s=Line1.GuardClosed" />
+ <Tag Alias="Line1.ResetRequest" Identifier="s=Line1.ResetRequest" />
+ <Tag Alias="Line1.TargetWeight" Identifier="s=Line1.TargetWeight" />
+ <Tag Alias="Line1.StartBatchWithTarget" Identifier="s=Line1.StartBatchWithTarget" />
+</PlcTagMap>
