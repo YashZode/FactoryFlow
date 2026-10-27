@@ -12,6 +12,10 @@ FactoryFlow is a simulated batch-production line for Windows. It includes:
 
 The HMI connects to the simulated PLC over a secure OPC UA session. Operators sign in with their Windows account, pick a recipe and run weighing batches. Batches, alarms and operator actions are recorded in SQL Server for history and reporting.
 
+![FactoryFlow Industrial HMI: Production tab with recipe selection, machine status, batch controls, simulator interlocks and production events](docs/images/hmi-production.png)
+
+*The WPF operator HMI on the Production tab, before signing in and connecting to the PLC.*
+
 > **Scope:** This is a simulation for development and demonstration. No physical PLC, vendor controller or safety system has been commissioned against it. The software interlocks do not replace certified safety hardware.
 
 ---
